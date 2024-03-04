@@ -347,7 +347,7 @@ Additionally, `Dog.__init__` should accept a second _optional_ argument for
 the dog's breed stored in an attribute `self.breed`. When no breed is provided,
 it should default to "Mutt".
 
-### 2. `Person.__init__` with a Name
+### 2.`Person.__init__` with a Name
 
 Define a `Person` class in `lib/person.py`. In the class, define an
 `__init__` method that accepts an argument for the person's name. That

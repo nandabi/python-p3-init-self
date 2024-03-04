@@ -1,8 +1,7 @@
 #!/usr/bin/env python3
 
 class Dog:
-    def sit(self):
-        print("The Dog is sitting.")
-
-    def bark(self):
-        print("Woof!")    
+    def __init__(self, name, breed = "Mutt") -> None:
+        self.name = name
+        self.breed = breed
+   
